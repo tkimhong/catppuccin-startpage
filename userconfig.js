@@ -10,17 +10,18 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Phnom Penh",
     scale: "C",
   },
   clock: {
-    format: "h:i p",
+    format: "HH:MM:SS",
     icon_color: palette.maroon,
   },
   search: {
     engines: {
-      d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
+      b: ["https://search.brave.com/search?q=", "Brave"],
       g: ["https://google.com/search?q=", "Google"],
+      d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
     },
   },
   keybindings: {
