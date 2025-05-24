@@ -11,7 +11,8 @@ class Config {
     },
     search: {
       engines: {
-        // d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
+        b: ["https://search.brave.com/search?q=", "Brave"],
+        d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
         g: ["https://google.com/search?q=", "Google"],
       },
     },
