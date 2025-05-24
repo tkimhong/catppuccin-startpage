@@ -14,7 +14,7 @@ const default_configuration = {
     scale: "C",
   },
   clock: {
-    format: "H:m:ss",
+    format: "H:mm:s",
     icon_color: palette.maroon,
   },
   search: {
@@ -25,7 +25,7 @@ const default_configuration = {
     },
   },
   keybindings: {
-    "s": "search-bar",
+    s: "search-bar",
   },
   disabled: [],
   localIcons: false,
