@@ -13,14 +13,14 @@ class Config {
       engines: {
         d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
         g: ["https://google.com/search?q=", "Google"],
-      }
+      },
     },
     disabled: [],
     openLastVisitedTab: false,
     tabs: [],
     keybindings: {
-      "s": "search-bar",
-    }
+      s: "search-bar",
+    },
   };
 
   config;
@@ -113,9 +113,9 @@ class Config {
    * Export the current configuration as a downloadable file.
    */
   exportSettings() {
-    const anchor = document.createElement('a');
-    const filename = 'dawn.configuration.json';
-    const mimeType = 'data:text/plain;charset=utf-8,';
+    const anchor = document.createElement("a");
+    const filename = "dawn.configuration.json";
+    const mimeType = "data:text/plain;charset=utf-8,";
 
     anchor.href = mimeType + encodeURIComponent(stringify(this, null, 2));
     anchor.download = filename;

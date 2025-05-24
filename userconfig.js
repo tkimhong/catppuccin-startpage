@@ -21,7 +21,7 @@ const default_configuration = {
     engines: {
       b: ["https://search.brave.com/search?q=", "Brave"],
       g: ["https://google.com/search?q=", "Google"],
-      d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
+      // d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
     },
   },
   keybindings: {
